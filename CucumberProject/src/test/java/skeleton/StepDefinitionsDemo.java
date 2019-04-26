@@ -37,7 +37,7 @@ public class StepDefinitionsDemo {
 	   Registerpage.gender.click();
 	   Registerpage.firstname.sendKeys("monica");
 	   Registerpage.lastname.sendKeys("burada");
-	   Registerpage.email.sendKeys("monica65887@gmail.com");
+	   Registerpage.email.sendKeys("mica65887@gmail.com");
 	   Registerpage.password.sendKeys("fdjhhg123");
 	   Registerpage.confirmpassword.sendKeys("fdjhhg123");
 	   Registerpage.registerbutton.click();

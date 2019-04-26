@@ -12,6 +12,33 @@ public static WebElement Password;
 @FindBy(how=How.CSS,using="input[value='Login']")
 public static WebElement login;
 
+@FindBy(how = How.XPATH,using="/html/body/main/div/div/div/div[2]/button") 
+public static WebElement AddCName;
+@FindBy(how = How.ID,using="catgName")
+public static WebElement CategoryNames;
+@FindBy(how = How.ID,using="catgDesc")  
+public static WebElement CategoryNameDesc;
+@FindBy(how=How.XPATH,using="/html/body/main/div/div/div/form/fieldset/div/div[3]/center/div[1]/input")
+public static WebElement Addbutton;
+@FindBy(how = How.XPATH,using="/html/body/main/div/div/div/form/b/i") 
+public static WebElement message;
+
+@FindBy(how = How.XPATH,using="/html/body/main/div/div/div/div[3]/button") 
+public static WebElement AddproductSubCategory; 
+@FindBy(how = How.CSS,using="select[id='subCatgId']") 
+public static WebElement AddCategory;
+@FindBy(how = How.CSS,using="input[id='subCatgName']")
+public static WebElement AddSubCatName;
+@FindBy(how = How.CSS,using="input[id='subCatgDesc']")  
+public static WebElement AddSubCatDesc; 
+@FindBy(how = How.CSS,using="input[value='Add']") 
+ public static WebElement AddSubCat; 
+@FindBy(how = How.XPATH,using="/html/body/main/div/div/div/form/b/i") 
+ public static WebElement ASCmessage;
+
+
+
+
 @FindBy(how=How.XPATH,using="/html/body/main/div/div/div/div[1]/button")
 public static WebElement AddProduct;
 @FindBy(how=How.CSS,using="select[id='categorydropid']")
@@ -26,10 +53,14 @@ public static WebElement Price;
 public static WebElement Quantity;
 @FindBy(how=How.CSS,using="input[id='brandid']")
 public static WebElement Brand;
-@FindBy(how=How.CSS,using="input[id='description']")
+@FindBy(how=How.ID,using="description")
 public static WebElement Description;
-@FindBy(how=How.NAME,using="input-file-preview")
-public static WebElement Fileupload;
-@FindBy(how=How.CSS,using="input[value='Add Product']")
-public static WebElement Addproduct;
+//@FindBy(how=How.XPATH,using="/html/body/main/div/div/div/form/fieldset/div[8]/div/div/div/div/div/div[1]/span/div/div/div/input")
+//public static WebElement Fileupload;
+@FindBy(how=How.CSS,using="input[type='submit']")
+public static WebElement Addp;
+@FindBy(how=How.XPATH,using="/html/body/main/div/div/div/form/b/i")
+public static WebElement AddedproductSuccessfully;
+
+
 }

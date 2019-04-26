@@ -1,45 +1,54 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/skeleton/Addproduct.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/skeleton/DemoWebShop.feature");
 formatter.feature({
-  "name": "Add new products to TestMeApp",
+  "name": "DemoWebShop Feature",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Alex has to login as admin and add the products",
+  "name": "RegsisterScenario",
   "description": "",
   "keyword": "Scenario"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
-  "name": "the URL of TestMeApp",
+  "name": "url of the demowebshop",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "StepDefinitionsDemo.url_of_the_demowebshop()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "admin enters all the data to add product",
+  "name": "user enters the data for registration",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "StepDefinitionsDemo.user_enters_the_data_for_registration()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "product is added successfully",
+  "name": "user is registered successfully",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "StepDefinitionsDemo.user_is_registered_successfully()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 });
