@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T10:15:01.913Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7707268000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginDefinitions.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4758482700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsDemo.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7072127400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddProdStepDef.before()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "RegsisterScenario",
+        "description": "",
+        "id": "demowebshop-feature;regsisterscenario",
+        "after": [
+          {
+            "result": {
+              "duration": 165598500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginDefinitions.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3158104400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "url of the demowebshop",
+            "match": {
+              "location": "StepDefinitionsDemo.url_of_the_demowebshop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1741171300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters the data for registration",
+            "match": {
+              "location": "StepDefinitionsDemo.user_enters_the_data_for_registration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51581200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is registered successfully",
+            "match": {
+              "location": "StepDefinitionsDemo.user_is_registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebShop Feature",
+    "description": "",
+    "id": "demowebshop-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/DemoWebShop.feature",
+    "tags": []
+  }
+]
